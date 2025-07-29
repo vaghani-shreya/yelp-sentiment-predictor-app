@@ -1,0 +1,48 @@
+.app-container {
+  display: flex;
+  flex-direction: column;   /* Stack children vertically */
+  align-items: center;      /* Center horizontally */
+  justify-content: flex-start;
+  padding-top: 50px;
+  gap: 20px;                /* Add space between elements */
+  height: 100vh;
+  background: linear-gradient(to bottom right, #d32323, #ff90b3); /* Yelp-style gradient */
+  font-family: 'Arial', sans-serif;
+}
+
+.heading {
+  color: white;
+  font-size: 32px;
+  margin: 0;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 60%;
+  max-width: 500px;
+  resize: none;
+}
+
+button {
+  background-color: white;
+  color: #d32323;
+  border: 2px solid #d32323;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d32323;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
